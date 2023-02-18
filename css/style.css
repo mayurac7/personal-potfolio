@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    /* doesnot works on safari */
+    /* scroll-behavior: smooth; */
+}
+
+body{
+    background: rgb(29 29 29 / 99%);
+    color: rgb(255, 255, 255);
+}
+
+/* Nav Bar  */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 4.5rem 4.2rem;
+}
+
+.main-nav{
+    margin-top: -3px;
+}
+
+.main-nav-list{
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+    list-style: none;
+}
+
+.logo-name{
+    font-size: 3em;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0 1rem;
+}
+
+.header-logo{
+    text-decoration: none;
+}
+
+.main-nav-link{
+    font-size: 2rem;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    padding: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav-link:link, 
+.main-nav-link:visited{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3;
+}
+
+/*  Body  */
+
+.social-icons{
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: 0.6rem;
+}
+
+.section-hero{
+    padding: 10rem 0 5rem 0;
+    min-height: calc(100vh - 46px);
+    /* height: calc(100vh - 46px); */
+}
+
+.hero{
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+    align-items: center;
+}
+
+.hero-img{
+    max-width: 100%;
+    height: 40rem;
+    display: inline-block;
+}
+
+.hero-text-box{
+    color: rgb(255, 255, 255);
+}
+.hero-text-box h3{
+    color: rgb(141, 141, 141);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.hero-primary{
+    font-size: 4.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.hero-name{
+    color: rgb(227, 64, 95);
+}
+
+.main-name{
+    letter-spacing: 2px;
+    color: rgb(141, 141, 141);
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+}
+
+.passion{
+    font-size: 3rem;
+    color: rgb(141, 141, 141);
+    margin-bottom: 3rem;
+}
+
+
+.ln-p{
+    display: inline-block;
+    background-color: #0e76a8;
+    border-radius: 50%;
+    height: 41px;
+    width: 40px;
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
+.ln-logo{
+    padding: 10px;
+}
+
+.github{
+    background-color: #333;
+    margin-right: 5px;
+}
+
+.instagram{
+    background-color: #e4405f;
+    margin-right: 5px;
+}
+
+.google{
+    background-color: #ea4335;
+    margin-right: 5px;
+}
+
+.contact-btn{
+    background-color: rgb(252, 16, 86);
+    border-radius: 8px;
+    border-width: 0;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    height: 50px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 95rem;
+    margin: 4rem auto;
+}
+
+.sub-heading{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(227, 64, 95);
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.60px;
+}
+
+.heading-about{
+    text-align: center;
+    font-size: 3.6rem;
+    color: #fff;
+    line-height: 1.25;
+    margin-bottom: 2.2rem;
+}
+
+.into-info{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.into-info img{
+    height: 12rem;
+    width: 12rem;
+    text-align: center;
+    margin: 2rem 2rem 2rem 4rem;
+}
+
+.about-me{
+    color: rgb(141, 141, 141);
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 110rem;
+    margin: 15rem auto 10rem auto;
+}
+
+.skills-pic{
+    max-width: 90rem;
+    width: 80%;
+    align-self: center;
+
+}
+
+.skill-heading{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.icons{
+    width: 5em;
+    height: 5em;
+}
+.skill-icon{
+    display: inline-block;
+    padding: 1.2rem;
+}
+
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.footer-container{
+    max-width: 90rem;
+    margin: 3rem auto 1.2rem auto;
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(141, 141, 141);
+    font-weight: 700;
+}
