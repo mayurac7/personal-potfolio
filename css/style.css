@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 html{
@@ -9,6 +10,7 @@ html{
     overflow-x: hidden;
     /* doesnot works on safari */
     /* scroll-behavior: smooth; */
+    font-family: 'Rubik', sans-serif;
 }
 
 body{
@@ -82,7 +84,6 @@ body{
 .section-hero{
     padding: 10rem 0 5rem 0;
     min-height: calc(100vh - 46px);
-    /* height: calc(100vh - 46px); */
 }
 
 .hero{
@@ -331,13 +332,14 @@ body{
 }
 
 .education-header h1{
-    font-size: 4.1rem;
+    font-size: 3.8rem;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .edu-container{
     max-width: 95rem;
-    margin: 4rem auto;
+    margin: 4rem auto 8rem auto;
 
 }
 
@@ -353,7 +355,11 @@ body{
     padding: 5rem;
     border-radius: 50%;
     border: 1px solid rgb(227, 64, 95);
-    box-shadow: rgb(227 64 95) 0px 0px 5px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.mitwpu:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(227 64 95) 0px 5px 15px;
 }
 
 .edu-pic{
@@ -379,17 +385,19 @@ body{
 .edu-title h3{
     font-size: 18px;
     margin: 0 1rem 2rem 2rem;
+    font-weight: 500;
 }
 
 .edu-duration{
     float: right;
-    width: 30%;
+    width: 35%;
 }
 
 .edu-duration h3{
     float: right;
     padding: 2.5rem;
     font-size: 1.6rem;
+    font-weight: 500;
 }
 
 .edu-detail{
@@ -417,6 +425,12 @@ body{
     border: 1px solid rgb(227, 64, 95);
     box-shadow: rgb(227 64 95) 0px 0px 5px;
     border-radius: 8px;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.edu-info:hover{
+    box-shadow: rgb(227 64 95) 0px 5px 15px;
 }
 
 .btn-college a{
@@ -430,6 +444,12 @@ body{
     background-color: rgb(227, 64, 95);
     margin: 0 2rem 2rem 0;
     border-radius: 5px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.btn-college a:hover{
+    box-shadow: rgb(227 64 95) 0px 5px 15px;
+    color: #fff;
 }
 
 .card-body{
@@ -487,6 +507,11 @@ body{
     padding: 2rem;
     background-color: rgb(41, 42, 45);
     border-radius: 7px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.project-card:hover{
+    box-shadow: rgb(41 42 45) 0px 2px 15px;
 }
 .project-card p{
     color: rgb(255, 255, 255);
@@ -527,6 +552,12 @@ body{
     border: none;
     text-decoration: none;
     font-size: 1.7rem;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.git-project:hover,
+.btn--form:hover{
+    box-shadow: rgb(227 64 95) 0px 5px 15px;
 }
 
 .git-btn{
@@ -559,6 +590,14 @@ body{
     border: none;
     background-color: rgb(46 44 44);
     border-radius: 7px;
+    transition: all 0.2s ease-in-out 0s;
+    color: #fff;
+}
+.cta-form input:focus,
+#your-message:focus{
+    box-shadow: rgb(41 42 45) 0px 2px 15px;
+    outline: none;
+    color: #fff;
 }
 
 .btn--form{
@@ -572,6 +611,7 @@ body{
     font-size: 1.7rem;
     margin: 0 auto;
     min-width: 80%;
+    cursor: pointer;
 }
 
 .logo-cta{
@@ -595,4 +635,139 @@ body{
 
 .logo-cta .google{
     margin-right: 2rem;
+}
+
+.intro-btn{
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.intro-btn .contact-btn{
+    margin-right: 2.5rem;
+    text-transform: uppercase;
+}
+
+.hero-img{
+    animation: move 2s 100;
+    position: relative;
+}
+@keyframes move{
+    0%{top:0px;}
+    50%{top: 10px;}
+    100%{top:0px;}
+}
+
+.certificates{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.certificate-container{
+    margin: 5rem auto;
+    max-width: 100rem;
+}
+
+.logo-cer img{
+    width: 20rem;
+    height: 10rem;
+    margin: 1rem auto;
+    display: 80%;
+}
+
+.logo-cer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 184, 8);
+}
+
+.certificate{
+    box-shadow: rgb(246 184 8) 0px 2px 5px;
+    border: 1px solid rgb(246, 184, 8);
+}
+
+.certificate:hover{
+    box-shadow: rgb(246 184 8) 0px 5px 15px;
+}
+
+.content-cer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.content-cer h2{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.content-cer p{
+    color: rgb(141, 141, 141);
+    font-size: 1.8rem;
+    margin-top: 0.5rem
+}
+
+.bg-green{
+    background-color: rgb(71, 160, 72);
+}
+.bg-skin{
+    background-color: rgb(255, 196, 117);
+}
+.bg-blue{
+    background-color: rgb(30, 112, 193);
+}
+.bg-purple{
+    background-color: rgb(177, 144, 176);
+}
+.bg-lpink{
+    background-color: rgb(255, 191, 174);
+}
+
+.shadow-green{
+    box-shadow: rgb(71 160 72) 0px 2px 5px;
+    border: 1px solid rgb(71, 160, 72);
+}
+.shadow-green:hover{
+    box-shadow: rgb(71 160 72) 0px 5px 15px;
+}
+.shadow-skin{
+    box-shadow: rgb(255, 196, 117) 0px 2px 5px;
+    border: 1px solid rgb(255, 196, 117);
+}
+.shadow-skin:hover{
+    box-shadow: rgb(255, 196, 117) 0px 5px 15px;
+}
+.shadow-blue{
+    box-shadow: rgb(30, 112, 193) 0px 2px 5px;
+    border: 1px solid rgb(30, 112, 193);
+}
+.shadow-blue:hover{
+    box-shadow: rgb(30, 112, 193) 0px 5px 15px;
+}
+.shadow-purple{
+    box-shadow: rgb(177, 144, 176) 0px 2px 5px;
+    border: 1px solid rgb(177, 144, 176);
+}
+.shadow-purple:hover{
+    box-shadow: rgb(177, 144, 176) 0px 5px 15px;
+}
+.shadow-lpink{
+    box-shadow: rgb(255, 191, 174) 0px 2px 5px;
+    border: 1px solid rgb(255, 191, 174);
+}
+.shadow-lpink:hover{
+    box-shadow: rgb(255, 191, 174) 0px 5px 15px;
+}
+
+.img-coursera img{
+    width: auto;
+}
+
+.certificate-container h1{
+    font-size: 3.8rem;
+    text-align: center;
+    margin: 5rem;
+    letter-spacing: 1px;
 }

@@ -1,0 +1,85 @@
+@media (max-width: 1188px){
+    .logo-name {
+        font-size: 2.5em;
+    }
+    .main-nav-link:visited,
+    .main-nav-link:link{
+        font-size: 1.7rem;
+    }
+    .container{
+        max-width: 90rem;
+    }
+    .skills{    
+    max-width: 100rem;
+    }
+}
+
+@media (max-width: 1000px){
+    .logo-name {
+        font-size: 2.1em;
+    }
+    .main-nav-link:visited,
+    .main-nav-link:link{
+        font-size: 1.5rem;
+    }
+    .container{
+        max-width: 85rem;
+    }
+    .skills{    
+        max-width: 95rem;
+    }
+    .skills-pic{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 900px){
+    .main-nav-list{
+        gap:2rem
+    }
+    .container {
+        max-width: 80rem;
+    }
+    .main-nav-link:visited,
+    .main-nav-link:link{
+        font-size: 1.2rem;
+    }
+    .hero-primary {
+        font-size: 4rem;
+    }
+    .main-name{
+        font-size: 3rem;
+    }
+    .passion{
+        font-size: 2.6rem;
+    }
+    .hero{
+        max-width: 85rem;
+    }
+    .sub-heading{
+        font-size: 1.8rem;
+    } 
+    .heading-about {
+        font-size: 3rem;
+    }
+    .about-me {
+        font-size: 1.7rem;
+    }
+    .skill-heading {
+        font-size: 3rem;
+    }
+    .skills-pic{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .skill-icon {
+        padding: 1rem;
+    }
+    .icons {
+        width: 4.5em;
+        height: 4.5em;
+    }
+    .hero {
+        max-width: 80rem;
+    }
+}
