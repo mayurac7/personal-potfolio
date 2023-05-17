@@ -58,6 +58,41 @@ body{
     color: rgb(227, 64, 95)!important;
 }
 
+.btn-mobile-nav{
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+
+.icon-mobile-nav{
+    height: 4rem;
+    width: 4rem;
+    color: #fb1056;
+}
+
+.icon-mobile-nav[name="close-outline"]{
+    display: none;
+}
+
+.sticky .header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.97);
+    z-index: 999999999;
+    height: 6rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0 1rem 2.6rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero{
+    margin-top: 9.6rem;
+}
+
+
 .logo-name{
     font-size: 3em;
     line-height: normal;
