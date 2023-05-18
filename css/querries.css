@@ -129,5 +129,8 @@
     .main-nav-link:link{
         font-size: 1.7rem;
     }
+    .mobile-navbar-btn{
+        margin-top: 1rem;
+    }
 }
 
