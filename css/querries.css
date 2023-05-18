@@ -135,5 +135,68 @@
     .header {
         padding: 4.5rem 2rem;
     }
+    .hero-primary{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .main-name{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .passion{
+        text-align: center;
+        font-size: 2.1rem;
+    }
+    .social-media-logo{
+        text-align: center;
+    }
+    .contact-me-btn{
+        text-align: center;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+    }
+    .section-hero{
+        padding-top: 5rem;
+        padding-bottom: 0px;
+    }
+    .hero-img {
+        height: 32rem;
+        margin-top: 1rem;
+    }
+    .container{
+        margin: 0rem auto;
+    }
+    .into-info{
+        grid-template-columns: 1fr;
+    }
+    .into-info img{
+        margin: 2rem auto;
+        height: 16rem;
+        width: 16rem;
+    }
+    .about-me{
+        text-align: center;
+        margin: 0 14px;
+        font-size: 1.6rem;
+    }
+    .heading-about {
+        font-size: 2.6rem;
+    }
+    .marginR-0{
+        margin-right: 0 !important;
+    }
+    .skills-pic{
+        display: none;
+    }
+    .skills{
+        grid-template-columns: 1fr;
+    }
+    .skill-grid{
+        grid-template-columns: repeat(5,1fr);
+    }
+    .skill-container{
+        margin: 0 2rem;
+    }
 }
 
