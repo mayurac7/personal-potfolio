@@ -5,11 +5,11 @@ var typed = new Typed(".auto-typed", {
     loop: true
 })
 
-const btnNavEl = document.querySelector('.btn-mobile-nav');
+const mobile_nav = document.querySelector('.mobile-navbar-btn');
 const headerEl = document.querySelector('.header');
 
-btnNavEl.addEventListener('click', function(){
-    headerEl.classList.toggle('nav-open');
+mobile_nav.addEventListener('click', function(){
+    headerEl.classList.toggle('active');
 });
 
 const sectionHeroEl = document.querySelector('.section-hero');

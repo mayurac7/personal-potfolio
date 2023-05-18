@@ -16,6 +16,7 @@ html{
 body{
     background: rgb(29 29 29 / 99%);
     color: rgb(255, 255, 255);
+    overflow-x: hidden;
 }
 
 /* Nav Bar  */
@@ -58,29 +59,12 @@ body{
     color: rgb(227, 64, 95)!important;
 }
 
-.btn-mobile-nav{
-    border: none;
-    background: none;
-    cursor: pointer;
-    display: none;
-}
 
-
-.icon-mobile-nav{
-    height: 4rem;
-    width: 4rem;
-    color: #fb1056;
-}
-
-.icon-mobile-nav[name="close-outline"]{
-    display: none;
-}
 
 .sticky .header{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(255,255,255,0.97);
     z-index: 999999999;
     height: 6rem;
     padding-top: 0;
@@ -106,6 +90,22 @@ body{
     text-decoration: none;
 }
 
+.mobile-nav-icon{
+    width: 4rem;
+    height: 4rem;
+    color: #fff;
+}
+
+
+.mobile-navbar-btn{
+    display: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.mobile-nav-icon[name='close-outline']{
+    display: none;
+}
 /*  Body  */
 
 .social-icons{
