@@ -198,5 +198,96 @@
     .skill-container{
         margin: 0 2rem;
     }
+
+    /* education page */
+    .degree-received{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        grid-gap: 2rem;
+    }
+    .edu-header-img{
+        height: 300px;
+        width: 300px;
+        margin-left: 1rem;
+    }
+    .heading-img-div{
+        text-align: center;
+    }
+    .heading-education {
+        margin: 0 0 2rem 0;
+        font-size: 3.5rem;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.1;
+    }
+    .sub-heading-edu{
+        font-size: 2rem;
+        margin: 0 0.7rem;
+    }
+    .edu-para{
+        font-size: 1.8rem;
+        margin: 2rem 2rem 0rem 2rem;
+    }
+    .education-header h1{
+        font-size: 3rem;
+    }
+    .edu-div{
+        grid-template-columns: 1fr;
+        text-align: center;
+        grid-gap: 0;
+    }
+    .mitwpu {
+        max-width: 45%;
+        max-height: 45%;
+        padding: 3rem;
+    }
+    .edu-header{
+        flex-direction: column;
+    }
+    .edu-info{
+        margin: 4rem;
+    }
+    .edu-title{
+        width: 100%;
+    }
+    .edu-title h2{
+        font-size: 2rem;
+    }
+    .edu-title h3{
+        font-size: 16px;
+        margin: 0 1rem 1rem 2rem;
+    }
+    .edu-duration{
+        width: 100%;
+        float: none !important;
+    }
+    .edu-duration h3{
+        float: none !important;
+        padding-top: 0;
+        padding: 1.5rem;
+        font-size: 1.4rem;
+    }
+    .center-btn-edu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-college a {
+        margin: 0 0 2rem 0;
+    }
+    .certificate-container h1{
+        font-size: 3rem;
+    }
+    .certificates{
+        grid-template-columns: 1fr;
+        margin: 0 1.4rem;
+    }
+    .certificate{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .content-cer h2{
+        font-size: 1.8rem;
+    }
 }
 
