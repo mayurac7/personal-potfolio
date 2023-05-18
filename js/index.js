@@ -7,9 +7,11 @@ var typed = new Typed(".auto-typed", {
 
 const mobile_nav = document.querySelector('.mobile-navbar-btn');
 const headerEl = document.querySelector('.header');
+const main_body = document.querySelector('body');
 
 mobile_nav.addEventListener('click', function(){
     headerEl.classList.toggle('active');
+    main_body.classList.toggle('only_mobile_nav');
 });
 
 const sectionHeroEl = document.querySelector('.section-hero');

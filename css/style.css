@@ -20,7 +20,9 @@ body{
 }
 
 /* Nav Bar  */
-
+.only_mobile_nav{
+    position: fixed;
+}
 .header{
     display: flex;
     justify-content: space-between;
