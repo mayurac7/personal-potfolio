@@ -132,5 +132,8 @@
     .mobile-navbar-btn{
         margin-top: 1rem;
     }
+    .header {
+        padding: 4.5rem 2rem;
+    }
 }
 
