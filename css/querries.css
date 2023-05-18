@@ -125,5 +125,9 @@
     .active .mobile-nav-icon[name='menu-outline']{
         display: none;
     }
+    .main-nav-link:visited,
+    .main-nav-link:link{
+        font-size: 1.7rem;
+    }
 }
 
