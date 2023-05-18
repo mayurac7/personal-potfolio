@@ -252,10 +252,12 @@
     }
     .edu-title h2{
         font-size: 2rem;
+        text-align: center;
     }
     .edu-title h3{
         font-size: 16px;
         margin: 0 1rem 1rem 2rem;
+        text-align: center;
     }
     .edu-duration{
         width: 100%;
@@ -266,6 +268,7 @@
         padding-top: 0;
         padding: 1.5rem;
         font-size: 1.4rem;
+        text-align: center;
     }
     .center-btn-edu{
         display: flex;
@@ -288,6 +291,14 @@
     }
     .content-cer h2{
         font-size: 1.8rem;
+    }
+    .card-body{
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin-top: 2rem;
+    }
+    .edu-pic{
+        text-align: center;
     }
 }
 
