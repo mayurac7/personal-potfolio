@@ -100,7 +100,7 @@
         align-items: center;
         z-index: 9999999999999999999999999999999999999999999999999999999;
         transform: translateX(100%);
-        transition: all 0.5s linear;
+        transition: all 0.3s linear;
         opacity: 0;
         visibility: hidden;
         pointer-events: none;

@@ -21,7 +21,7 @@ body{
 
 /* Nav Bar  */
 .only_mobile_nav{
-    position: fixed;
+    display: none;
 }
 .header{
     display: flex;
