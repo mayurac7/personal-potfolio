@@ -319,5 +319,14 @@
         padding: 13px;
         font-size: 1.5rem;
     }
+    .cta-form{
+        padding: 0 2rem;
+    }
+    .heading-contact{
+        padding: 0 1rem;
+    }
+    .mobile-nav-icon{
+        color: rgb(227, 64, 95);
+    }
 }
 
